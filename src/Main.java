@@ -20,7 +20,7 @@ public class Main {
         millerStreet.addArrivals(Arrays.asList(21, 22, 23), Arrays.asList(16, 36, 56));
 
         //Generate Timetable with a given start and endtime and an interval
-        millerStreet.addArrivals(LocalTime.of(5,0),  LocalTime.of(23, 0), 18);
+        //millerStreet.addArrivals(LocalTime.of(5,0),  LocalTime.of(23, 0), 18);
 
         System.out.println("Manuell");
         printNextArrival(LocalTime.now());
